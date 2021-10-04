@@ -9,13 +9,28 @@ body{
 }
 
 .link-navbar{ /*es una clase*/
+    height: 80px;
+
     font-size: 20px;
     color:crimson;
     text-decoration: none;
 }
 
-#home-hero{
+nav{
     height: 400px;
     width: 100%;
     background-color: cyan;
+    color:brown;
+
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+
+.center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
