@@ -3,8 +3,8 @@
     padding:0;
 }
 body{
-    background-color: rgb(198, 226, 166);
-    font-family: 'Ephesis', cursive;
+    background-color: rgb(255, 213, 248);
+    font-family: 'Oswald', sans-serif;
     font-size: 80px;
 
 }
@@ -45,7 +45,7 @@ nav a{
 #home-hero{
     /*height: 50;*/
     width: 100%;
-    background-color: rgb(100, 107, 206);
+    background-color: rgb(132, 133, 155);
     padding: 0 15px 0 15px;
 
     display: flex;
@@ -56,8 +56,8 @@ nav a{
 }
 
 #home-hero h1{
-    font-size: 40px;
-    color: darkmagenta;
+    font-size: 60px;
+    color: rgb(33, 61, 219);
 
 }
 
@@ -66,7 +66,7 @@ nav a{
 
 }
 #home-hero img{
-    width: 450px;
+    width: 550px;
 }
 
 
@@ -74,16 +74,16 @@ nav a{
 
 .grid-container{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-template-rows: 200px 200px 200px;
     column-gap: 10px;
     row-gap: 10px;
-    background-color: darkolivegreen;
+    background-color: rgb(123, 202, 185);
 }
 
 .perfil-card{
     background-color: darkorange;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -92,5 +92,5 @@ nav a{
 
 }
 .perfil-card img{
-    width: 180px;
+    width: 190px;
 }
